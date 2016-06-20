@@ -16,8 +16,8 @@ class TestiOSEnvironment(unittest.TestCase):
         # open helloworld.app on simulator iPhone 4s (9.2)
         desired_caps = {}
         desired_caps['platformName'] = 'iOS'
-        desired_caps['platformVersion'] = '9.2'
-        desired_caps['deviceName'] = 'iPhone 4s'
+        desired_caps['platformVersion'] = '9.3'
+        desired_caps['deviceName'] = 'iPhone 6'
         desired_caps['app'] = PATH(
             '../app/simulator/helloworld.app'
         )
