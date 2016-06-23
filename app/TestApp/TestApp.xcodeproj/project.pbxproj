@@ -155,7 +155,7 @@
 				LastUpgradeCheck = 0460;
 				TargetAttributes = {
 					3647AE0D15CA0082006F70D6 = {
-						DevelopmentTeam = H7T55QD8H5;
+						DevelopmentTeam = LGC7HC9SA6;
 					};
 				};
 			};
@@ -288,14 +288,15 @@
 		3647AE2715CA0082006F70D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaodumeiren@163.com (9F76CWR538)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test App 2/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "Test App 2/TestApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_BUNDLE_IDENTIFIER = io.appiumIos.TestApp;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huajie.appiumdemo;
 				PRODUCT_NAME = TestApp;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1304ed72-94c5-407f-84cb-9b431f7d8d70";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -303,15 +304,16 @@
 		3647AE2815CA0082006F70D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaodumeiren@163.com (9F76CWR538)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test App 2/TestApp-Prefix.pch";
 				INFOPLIST_FILE = "Test App 2/TestApp-Info.plist";
 				INSTALL_PATH = "${LOCAL_APPS_DIR}";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_BUNDLE_IDENTIFIER = io.appiumIos.TestApp;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huajie.appiumdemo;
 				PRODUCT_NAME = TestApp;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1304ed72-94c5-407f-84cb-9b431f7d8d70";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
