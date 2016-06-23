@@ -11,4 +11,6 @@ appium iOS samples
 python scripts/l3_enviroment_verification.py
 ```
 
-脚本会启动 iPhone4s (9.2) 模拟器，并打开 helloworld 应用，等待5秒，截图，自动结束。
+L3环境验证脚本会启动 iPhone6 (9.6) 真机，并打开 helloworld 应用，等待5秒，截图，自动结束。
+L4脚本会启动真机并执行加法或减法验证，见文件名。
+
