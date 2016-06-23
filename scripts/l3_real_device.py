@@ -20,8 +20,8 @@ class TestiOSEnvironment(unittest.TestCase):
         desired_caps['platformVersion'] = '9.3'
         desired_caps['deviceName'] = 'iPhone 6'
         desired_caps['udid'] = '6abbdd3af4fe3eb2b269bebd496081cf2fefd516'
-        desired_caps['app'] = app
-        # desired_caps['app'] = PATH('../app/TestApp/build/Debug-iphoneos/TestApp.ipa')
+        # desired_caps['app'] = app
+        desired_caps['app'] = PATH('../app/TestApp/build/Debug-iphoneos/TestApp.ipa')
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     def tearDown(self):

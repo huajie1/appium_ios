@@ -15,15 +15,14 @@ SCREENSHOT_NAME = "check_sum_error.png"
 class TestAppiumIosL4(unittest.TestCase):
     def setUp(self):
         # open TestApp.app on simulator iPhone 4s (9.2)
+        app = 'com.huajie.appiumdemo'
         desired_caps = {}
         desired_caps['platformName'] = 'iOS'
-        desired_caps['platformVersion'] = '9.2'
-
-        # simulator
-        desired_caps['deviceName'] = 'iPhone 4s'
-        desired_caps['app'] = PATH(
-            '../app/TestApp/build/Debug-iphonesimulator/TestApp.app'
-        )
+        desired_caps['platformVersion'] = '9.3'
+        desired_caps['deviceName'] = 'iPhone 6'
+        desired_caps['app'] = app
+        desired_caps['udid'] = '6abbdd3af4fe3eb2b269bebd496081cf2fefd516'
+        # desired_caps['app'] = PATH('../app/TestApp/build/Debug-iphonesimulator/TestApp.app')
 
         # real device
         # desired_caps['deviceName'] = "hengjie's iPhone"
