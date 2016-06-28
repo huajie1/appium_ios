@@ -67,8 +67,6 @@ class TestAppiumIosL4(unittest.TestCase):
         self.assertEqual(minus_result_id.text, str(first_arg - second_arg))
 
 
-
-
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestAppiumIosL4)
     unittest.TextTestRunner(verbosity=2).run(suite)
