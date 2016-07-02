@@ -1,8 +1,9 @@
 # -*- coding:utf-8 -*-
+import os
 import unittest
 import sys
 from appium import webdriver
-
+# PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
 first_arg = 10
 second_arg = 5
 
@@ -11,6 +12,7 @@ second_arg = 5
 class TestAppiumIosL5(unittest.TestCase):
 
     method_name = None
+
     @classmethod
     def setUpClass(cls):
         print "setUpClass"
@@ -23,6 +25,7 @@ class TestAppiumIosL5(unittest.TestCase):
         # simulator
         desired_caps['deviceName'] = 'iPhone 6'
         desired_caps['app'] = app
+        # desired_caps['app'] = PATH('../app/TestApp/build/Debug-iphoneos/TestApp.app')
         cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     @classmethod
