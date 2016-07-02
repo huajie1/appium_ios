@@ -1,0 +1,38 @@
+Launching Appium with command: '/Applications/Appium.app/Contents/Resources/node/bin/node' lib/server/main.js --command-timeout "7200" --session-override --pre-launch --debug-log-spacing --log "/tmp/appium.log" --log-timestamp --log-level "debug" --platform-version "9.2" --platform-name "iOS" --app "/Users/test/Documents/Training/appium_ios/app/TestApp/build/Debug-iphonesimulator/TestApp.app" --full-reset --device-name "iPhone 4s" --native-instruments-lib
+
+2016-06-25 23:55:44:972 - info: [debug] Starting Appium in pre-launch mode
+2016-06-25 23:55:44:986 - info: Pre-launching app
+
+2016-06-25 23:55:44:989 - info: *************************************
+2016-06-25 23:55:44:990 - info: *************************************
+2016-06-25 23:55:44:990 - info: *************************************
+2016-06-25 23:55:44:990 - info: *************************************
+2016-06-25 23:55:44:991 - info: *************************************
+2016-06-25 23:55:44:991 - info: *************************************
+2016-06-25 23:55:44:991 - info: *************************************
+
+2016-06-25 23:55:44:993 - info: *************************************
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:994 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:995 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:995 - info: ****        NEW SESSION           ***
+2016-06-25 23:55:44:996 - info: *************************************
+2016-06-25 23:55:44:997 - info: *************************************
+2016-06-25 23:55:44:997 - info: *************************************
+2016-06-25 23:55:44:997 - info: *************************************
+2016-06-25 23:55:44:998 - info: *************************************
+2016-06-25 23:55:44:998 - info: *************************************
+2016-06-25 23:55:44:998 - info: *************************************
+2016-06-25 23:55:44:999 - info: *************************************
+
+2016-06-25 23:55:45:005 - info: [debug] Using local app from command line: /Users/test/Documents/Training/appium_ios/app/TestApp/build/Debug-iphonesimulator/TestApp.app
+
+2016-06-25 23:55:45:031 - error: Could not pre-launch appium: Error: Bad app: /Users/test/Documents/Training/appium_ios/app/TestApp/build/Debug-iphonesimulator/TestApp.app. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT, stat '/Users/test/Documents/Training/appium_ios/app/TestApp/build/Debug-iphonesimulator/TestApp.app'
+
+2016-06-25 23:55:45:030 - info: [debug] Got configuration error, not starting session
+2016-06-25 23:55:45:030 - info: [debug] Cleaning up appium session
+
