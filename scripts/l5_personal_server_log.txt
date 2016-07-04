@@ -1,3 +1,12 @@
 l5_1.log
 
 错误：被测应用的路径不对
+
+l5_2.log
+
+问题1:
+元素定位不到,需要检查参数对不对
+2016-06-26 00:03:01:475 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":""},"sessionId":"3c6edf68-9d95-4194-990c-8242625463b9"}
+问题2：
+模拟器的UDID应该不对，使用命令 xcrun simctl list查看用到的模拟器对应的UDID
+
