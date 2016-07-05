@@ -10,7 +10,7 @@
 		</data>
 		<key>GestureTestViewController.nib</key>
 		<data>
-		ZuusM2c5sOIcGJAKUl8fPInsQxI=
+		PcHxEuyRjeUdbgo4oRSOpiKy+Is=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		0b3ZLSKpmJGVD9Ta8LHC0+4aKoI=
+		xZi3qjqvTizURryM0WsN/eRyNh0=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -46,7 +46,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4qYKrM4j0q9QS1dx7VDXfS2DO3U=
+			t5Iw7XTkE6kVlS+4srewoSW2Sk4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,22 +69,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZuusM2c5sOIcGJAKUl8fPInsQxI=
+			PcHxEuyRjeUdbgo4oRSOpiKy+Is=
 			</data>
 			<key>hash2</key>
 			<data>
-			fg6nYtpPHaxvmffZ3BeeXlJ9C43qezYm+rsfsUoeTbI=
+			WVH0hvJ9FIzYnG04Xza2Hgy7V7GDObTeaCWFPSg93m8=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0b3ZLSKpmJGVD9Ta8LHC0+4aKoI=
+			xZi3qjqvTizURryM0WsN/eRyNh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1vOzIOKIBTT5Lk7Kp0TOCAtOmQNgwf+AfI3e9OG12kw=
+			KFtBQDUdTMRr5fEoGwl7aS1sgEp1Q/MRnXTetbaw+vs=
 			</data>
 		</dict>
 		<key>en.lproj/InfoPlist.strings</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4qYKrM4j0q9QS1dx7VDXfS2DO3U=
+			t5Iw7XTkE6kVlS+4srewoSW2Sk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			JbRUXnMIDA16NJa9eJAE0x2w2h+8oFk05rR9vhEOlsA=
+			GkwzthzDNUAOgN4qcEhH3+YH2IiRrDJCNFV812QxPz0=
 			</data>
 			<key>optional</key>
 			<true/>
