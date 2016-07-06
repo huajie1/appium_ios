@@ -77,5 +77,9 @@ class TestAppiumIosL5(unittest.TestCase):
         print "The sum is "+sum_result_label.text
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestAppiumIosL5)
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    # suite = unittest.TestLoader().loadTestsFromTestCase(TestAppiumIosL5)
+    suite = unittest.TestSuite()
+    # 将方法依次加入以下执行序列使其顺序执行
+    suite.addTest(TestAppiumIosL5("test_calculate0"))
+    suite.addTest(TestAppiumIosL5("test_calculate1"))
+    unittest.TextTestRunner().run(suite)
